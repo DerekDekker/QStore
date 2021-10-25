@@ -29,4 +29,4 @@ if __name__ == '__main__':
     window = MainWidget()  # 创建窗口
     window.show()  # 显示窗口
     sys.exit(app.exec())  # 进入主循环
-
+    # 2

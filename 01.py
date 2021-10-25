@@ -9,4 +9,3 @@ Label.setPixmap(PixMap)
 
 Label.show()
 app.exec_()
-# 1
