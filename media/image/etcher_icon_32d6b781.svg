@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>etcher-electron</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-16.7%" y="-15.0%" width="133.3%" height="130.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M35.6791907,40.0871009 C34.4128812,38.3989725 32.7547844,37.0193798 30.8437572,35.8666077 L2.90761949,19.0149367 C4.00133085,17.5942986 5.37420993,16.3754288 6.97538411,15.4466483 L28.9753841,2.68528236 C33.3194931,0.165429429 38.6805069,0.165429429 43.0246159,2.68528236 L65.0246159,15.4466483 C66.2866544,16.178709 67.406864,17.0909883 68.360334,18.1402384 L40.8723538,34.7842991 C38.7090813,36.0892309 36.9307493,37.9350916 35.6791907,40.0871009 Z M70.7856747,21.8533556 C71.5738761,23.6198237 72,25.5580221 72,27.5567586 L72,53.1933203 C72,58.184879 69.3423535,62.7988746 65.0246159,65.3034306 L43.0246159,78.0647965 C41.5507853,78.9197098 39.9599039,79.4845757 38.3313957,79.7593943 L38.3313957,47.5445573 C38.3313957,43.7486729 39.8389495,40.7378868 43.2866189,38.428423 L70.7856747,21.8533556 Z M33.6431375,79.7550724 C32.0235117,79.4786782 30.4415312,78.9152529 28.9753841,78.0647965 L6.97538411,65.3034306 C2.65764645,62.7988746 -9.04165631e-13,58.184879 -9.12159237e-13,53.1933203 L-9.26370092e-13,27.5567586 C-9.26370092e-13,25.9582444 0.272557312,24.3984515 0.784909372,22.9342597 L28.9570895,39.7033026 C31.97777,41.5254412 33.457298,44.3016957 33.6431375,47.7463643 L33.6431375,79.7550724 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#8BD92D" offset="0%"></stop>
+            <stop stop-color="#BAE75A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="etcher-electron">
+            <g id="多边形" filter="url(#filter-1)" transform="translate(12.000000, 7.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="蒙版" fill="#D2F986" xlink:href="#path-2"></use>
+                <path d="M42.0566919,14.6542861 L56.037454,22.8282575 C59.7182849,24.9802866 61.9807621,28.9238533 61.9807621,33.1876244 L61.9807621,49.7982486 C61.9807621,54.0620198 59.7182849,58.0055865 56.037454,60.1576155 L42.0566919,68.3315869 C38.3151731,70.5190977 33.6848269,70.5190977 29.9433081,68.3315869 L15.962546,60.1576155 C12.2817151,58.0055865 10.0192379,54.0620198 10.0192379,49.7982486 L10.0192379,33.1876244 C10.0192379,28.9238533 12.2817151,24.9802866 15.962546,22.8282575 L29.9433081,14.6542861 C33.6848269,12.4667753 38.3151731,12.4667753 42.0566919,14.6542861 Z" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
