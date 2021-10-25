@@ -12,6 +12,9 @@ class AppUi(object):
         AppWidget.setGeometry(300, 200, 650, 350)
         AppWidget.setStyleSheet("background-color: #292929;")
 
+        # 布局
+        b_layout = QHBoxLayout(AppWidget)
+
         # 应用Logo
         self.svg = QtSvgWidgets.QSvgWidget('../../media/image/anaconda2-install_icon.svg')
         self.svg.setMinimumWidth(120)
@@ -29,7 +32,6 @@ class AppUi(object):
         self.content.setStyleSheet('color:#c7c7c7;font-weight: 400;font-family: "Unifont";')
         self.content.setWordWrap(True)
 
-        b_layout = QHBoxLayout(AppWidget)
         b_layout.addWidget(self.svg, 1, Qt.AlignTop)
         v_loxLayout = QVBoxLayout()
         b_layout.addLayout(v_loxLayout)

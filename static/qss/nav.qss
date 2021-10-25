@@ -1,0 +1,7 @@
+#x{
+    background-color: #000000;
+    border-right: 1px solid #ddd;
+}
+#a {
+    background-color: #292929;
+}

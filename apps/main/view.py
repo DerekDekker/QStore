@@ -6,14 +6,30 @@ from PySide6.QtCore import Qt
 import random
 from PyQt5.QtGui import QFont
 from widget.App.view import AppWidget
+from Nav.view import NavWidget
+from utils.FileQss import FileQss
 
 
-class MainWidget(QWidget):
+class MainWidget(QMainWindow):
     def __init__(self):
         super(MainWidget, self).__init__()
-        self.setStyleSheet("background-color: #292929;")
+        self.setObjectName('a')
+        # self.setStyleSheet("background-color: #292929;")
+        # qssStyle = FileQss.readQSS('../../static/qss/nav.qss')
+        # self.setStyleSheet(qssStyle)
 
-        self.q_layout = QGridLayout(self)
+        q_widget = QWidget()
+        self.setCentralWidget(q_widget)
+
+        # 布局 水平
+        self.h_layout = QHBoxLayout(q_widget)
+
+        # 布局 网格
+        self.q_layout = QGridLayout()
+
+        # 菜单
+        nav_widget = NavWidget()
+        # nav_widget.setStyleSheet("border-right: 1px solid #ddd;")
 
         self.pagination = 4
 
@@ -21,12 +37,20 @@ class MainWidget(QWidget):
         for app_widget in range(16):
             self.app_widget_list.append(AppWidget())
             self.q_layout.addWidget(self.app_widget_list[-1], int(app_widget/self.pagination), app_widget-(int(app_widget/self.pagination)*self.pagination))
-            print(self.app_widget_list[-1].size())
+
+        # 水平布局 添加 网格布局
+        self.h_layout.addWidget(nav_widget)
+        self.h_layout.addLayout(self.q_layout)
 
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)  # 创建类实例
+
+    with open("../../static/qss/nav.qss", "r") as f:
+        _style = f.read()
+        app.setStyleSheet(_style)
+
     window = MainWidget()  # 创建窗口
     window.show()  # 显示窗口
     sys.exit(app.exec())  # 进入主循环
-    # 2
+
