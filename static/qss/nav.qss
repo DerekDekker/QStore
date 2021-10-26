@@ -1,7 +1,14 @@
-#x{
-    background-color: #000000;
-    border-right: 1px solid #ddd;
+NavWidget{
+    border-right: 1px solid #21262d;
 }
-#a {
-    background-color: #292929;
+MenuWidget{
+    border-radius: 12px;
+}
+
+MenuWidget:hover{
+    background-color: #0c2d6b;
+    border-radius: 12px;
+}
+MenuWidget:pressed{
+    background-color: #092354;
 }

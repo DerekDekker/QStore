@@ -13,23 +13,24 @@ from utils.FileQss import FileQss
 class MainWidget(QMainWindow):
     def __init__(self):
         super(MainWidget, self).__init__()
-        self.setObjectName('a')
-        # self.setStyleSheet("background-color: #292929;")
-        # qssStyle = FileQss.readQSS('../../static/qss/nav.qss')
-        # self.setStyleSheet(qssStyle)
+        self.setObjectName('MainWidget')
+        self.setWindowIcon(QtGui.QIcon('../../media/image/tor-browser-zh_icon.svg'))
+        qssStyle = FileQss.readQSS('../../static/qss/main.qss')
+        self.setStyleSheet(qssStyle)
 
         q_widget = QWidget()
         self.setCentralWidget(q_widget)
 
+
         # 布局 水平
         self.h_layout = QHBoxLayout(q_widget)
+        self.h_layout.setContentsMargins(0, 0, 0, 0)
 
         # 布局 网格
         self.q_layout = QGridLayout()
 
         # 菜单
         nav_widget = NavWidget()
-        # nav_widget.setStyleSheet("border-right: 1px solid #ddd;")
 
         self.pagination = 4
 
@@ -45,11 +46,6 @@ class MainWidget(QMainWindow):
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)  # 创建类实例
-
-    with open("../../static/qss/nav.qss", "r") as f:
-        _style = f.read()
-        app.setStyleSheet(_style)
-
     window = MainWidget()  # 创建窗口
     window.show()  # 显示窗口
     sys.exit(app.exec())  # 进入主循环

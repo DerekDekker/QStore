@@ -25,7 +25,6 @@ class AppUi(object):
         # 标题
         self.title = QLabel('超级浏览器')
         self.title.setStyleSheet('color:#cecece;letter-spacing:2px;font-size:24px;font-family: "Liberation Serif";')
-        # font - family: "Unifont"
 
         # 内容
         self.content = QLabel('我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>')
