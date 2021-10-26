@@ -4,7 +4,6 @@ NavWidget{
 MenuWidget{
     border-radius: 12px;
 }
-
 MenuWidget:hover{
     background-color: #0c2d6b;
     border-radius: 12px;

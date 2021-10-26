@@ -28,7 +28,7 @@ class AppUi(object):
 
         # 内容
         self.content = QLabel('我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>')
-        self.content.setStyleSheet('color:#c7c7c7;font-weight: 400;font-family: "Unifont";')
+        self.content.setStyleSheet('color:#c7c7c7;font-weight: 400;font-family: "Noto Serif CJK JP";')
         self.content.setWordWrap(True)
 
         b_layout.addWidget(self.svg, 1, Qt.AlignTop)
