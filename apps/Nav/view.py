@@ -29,22 +29,22 @@ class NavWidget(QMainWindow):
         self.setContentsMargins(6, 3, 6, 0)
 
         # 菜单
-        menu_widget = MenuWidget()
-        menu_widget.nav_menu.setText('网络应用')
-        menu_widget.svg.load('../../media/image/etcher_icon_32d6b781.svg')
-        menu_widget2 = MenuWidget()
-        menu_widget2.nav_menu.setText('社交共通')
-        menu_widget2.svg.load('../../media/image/dbschema_icon.svg')
-        menu_widget3 = MenuWidget()
-        menu_widget3.nav_menu.setText('音乐欣赏')
-        menu_widget3.svg.load('../../media/image/eric_icon.svg')
-
+        self.menu_widget = MenuWidget()
+        self.menu_widget.nav_menu.setText('网络应用')
+        self.menu_widget.svg.load('../../media/image/etcher_icon_32d6b781.svg')
+        self.menu_widget2 = MenuWidget()
+        self.menu_widget2.nav_menu.setText('社交共通')
+        self.menu_widget2.svg.load('../../media/image/dbschema_icon.svg')
+        self.menu_widget3 = MenuWidget()
+        self.menu_widget3.nav_menu.setText('音乐欣赏')
+        self.menu_widget3.svg.load('../../media/image/eric_icon.svg')
 
         # 布局 添加 标签
-        self.V_layout.addWidget(menu_widget)
-        self.V_layout.addWidget(menu_widget2)
-        self.V_layout.addWidget(menu_widget3)
+        self.V_layout.addWidget(self.menu_widget)
+        self.V_layout.addWidget(self.menu_widget2)
+        self.V_layout.addWidget(self.menu_widget3)
         self.V_layout.addStretch(1)
+
 
 
 if __name__ == '__main__':

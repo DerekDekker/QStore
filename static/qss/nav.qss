@@ -1,11 +1,11 @@
 NavWidget{
-    border-right: 1px solid #21262d;
+    border-right: 1px solid rgba(33,38,45,0.5);
 }
 MenuWidget{
     border-radius: 12px;
 }
 MenuWidget:hover{
-    background-color: #0c2d6b;
+    background-color: rgba(12,45,107,0.5);
     border-radius: 12px;
 }
 MenuWidget:pressed{

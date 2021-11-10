@@ -1,6 +1,6 @@
 MainWidget, QWidget{
-    background-color: #292929;
+    background-color: rgba(0, 0, 0, 0);
 }
 QScrollArea{
-    background-color: rgba(00, 00, 00, 0);
+    background-color: rgba(0, 0, 0, 0);
 }

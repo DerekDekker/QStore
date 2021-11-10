@@ -5,12 +5,13 @@ from PySide6.QtGui import QPixmap, QGuiApplication, QImage
 from PySide6.QtCore import Qt
 import random
 from PyQt5.QtGui import QFont
+from utils.FileQss import FileQss
 
 
 class AppUi(object):
     def ui(self, AppWidget):
         AppWidget.setGeometry(300, 200, 650, 350)
-        AppWidget.setStyleSheet("background-color: #292929;")
+        # AppWidget.setStyleSheet("background-color: #292929;")
 
         # 布局
         b_layout = QHBoxLayout(AppWidget)

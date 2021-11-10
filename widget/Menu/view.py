@@ -8,6 +8,7 @@ from PyQt5.QtGui import QFont
 from PySide6.QtGui import QIcon
 from PySide6 import QtCore
 from utils.FileQss import FileQss
+from PySide6.QtCore import Slot
 
 
 class MenuWidget(QPushButton):
@@ -41,6 +42,8 @@ class MenuWidget(QPushButton):
         # 布局 添加 标签
         self.h_layout.addWidget(self.svg, 1, Qt.AlignLeft)
         # self.h_layout.addWidget(self.nav_menu)
+
+
 
 
 if __name__ == '__main__':
