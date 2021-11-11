@@ -1,29 +1,10 @@
+from PySide6 import QtWidgets,QtGui,QtCore
 import sys
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
 
-from BlurWindow.blurWindow import GlobalBlur
+def __init__(self):
+    for i in range(0,10):
+        self._numberButtons += [QtWidgets.QPushButton(str(i), self)]
+        self.connect(self._numberButtons[i], SIGNAL('clicked()'), lambda : self._number(i))
 
-
-
-class MainWindow(QWidget):
-    def __init__(self):
-        super(MainWindow, self).__init__()
-        self.setAttribute(Qt.WA_TranslucentBackground)
-        self.resize(500, 400)
-        #
-        # hWnd = self.winId()
-        # print(hWnd)
-        # blur(hWnd)
-
-        self.setAttribute(Qt.WA_TranslucentBackground)
-        GlobalBlur(self.winId(), Dark=True)
-        self.setStyleSheet("background-color: rgba(0, 0, 0, 0)")
-
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    mw = MainWindow()
-    mw.show()
-    sys.exit(app.exec_())
+def _number(self, x):
+    print(x)

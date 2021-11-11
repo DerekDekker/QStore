@@ -9,6 +9,7 @@ from PySide6 import QtCore
 from widget.Menu.view import MenuWidget
 from utils.CommonHelper import CommonHelper
 from utils.FileQss import FileQss
+import sqlite3
 
 
 class NavWidget(QMainWindow):
@@ -28,22 +29,26 @@ class NavWidget(QMainWindow):
         self.V_layout.setSpacing(0)
         self.setContentsMargins(6, 3, 6, 0)
 
-        # 菜单
-        self.menu_widget = MenuWidget()
-        self.menu_widget.nav_menu.setText('网络应用')
-        self.menu_widget.svg.load('../../media/image/etcher_icon_32d6b781.svg')
-        self.menu_widget2 = MenuWidget()
-        self.menu_widget2.nav_menu.setText('社交共通')
-        self.menu_widget2.svg.load('../../media/image/dbschema_icon.svg')
-        self.menu_widget3 = MenuWidget()
-        self.menu_widget3.nav_menu.setText('音乐欣赏')
-        self.menu_widget3.svg.load('../../media/image/eric_icon.svg')
 
-        # 布局 添加 标签
-        self.V_layout.addWidget(self.menu_widget)
-        self.V_layout.addWidget(self.menu_widget2)
-        self.V_layout.addWidget(self.menu_widget3)
+        c = sqlite3.connect('../../QStore.db')
+        cursor = c.execute('SELECT * FROM column')
+
+        # 数据库
+        self.menu_widget_list = {}
+        for cursor_obj in cursor:
+            # 菜单
+            self.menu_widget_list[cursor_obj[0]] = MenuWidget()
+            self.menu_widget_list[cursor_obj[0]].setText(cursor_obj[1])
+            self.menu_widget_list[cursor_obj[0]].svg.load(f'../../media/image/{cursor_obj[3]}')
+            # 布局 添加 标签
+            self.V_layout.addWidget(self.menu_widget_list[cursor_obj[0]])
+
         self.V_layout.addStretch(1)
+
+        # 菜单
+        # self.menu_widget = MenuWidget()
+        # self.menu_widget.nav_menu.setText('网络应用')
+        # self.menu_widget.svg.load('../../media/image/etcher_icon_32d6b781.svg')
 
 
 

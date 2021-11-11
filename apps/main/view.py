@@ -11,6 +11,7 @@ from utils.FlowLayout import FlowLayout
 from Body.view import BodyWidget
 from PySide6.QtCore import Slot
 from Welcome.view import WelcomeWidget
+from functools import partial
 
 
 class MainWidget(QMainWindow):
@@ -59,10 +60,13 @@ class MainWidget(QMainWindow):
         self.stacked_widget.addWidget(welcome_widget)  # 堆栈窗口 添加 主窗体
 
         # 信号
-        nav_widget.menu_widget.clicked.connect(self.menu_slot)
+        for menu_widget_list_obj in nav_widget.menu_widget_list:
+            # nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(partial(self.menu_slot, menu_widget_list_obj))
+            nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(self.menu_slot(1))
 
     @Slot()
     def menu_slot(self, x):
+        print(x)
         # 主窗体
         body_widget3 = BodyWidget(3)
         self.stacked_widget.addWidget(body_widget3)  # 堆栈窗口 添加 主窗体
