@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>DAEMON SYNC</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DAEMON-SYNC">
+            <image id="Bitmap" x="1" y="2" width="46" height="46" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAA2FJREFUaAXVmdly1DAQRRnCEvYHSAHF/38bVRDWsIQ13KP4qlrjZezB45G76kayR5ZPt1uypWxu/L9t1EUUPXIc7ao5oIyKbSbVt28w9mKD3tQF6J70QLoj3Wp0ohL7I/1u9FPlV+m79LeRHdHheJsKbmCgHkqPJAPjAOY210fXfyMcwHbgQvUvEs7FNjoctingtCWagD5tShwwsKqTDAcA5gm8a0qeDA7stDHgtHE6PFP9sYQDY65Vs50GKMCfpXPJaTTogPNQ7TsNONo8kV5JpMec0OouBYB7nEr0jxO/pL3BgQaSKL+Q6HiuKKurltH3bYlUxH5IvfB9ETf0c10MOLPFUgYTsxQladMJ3wUONOcZgGcSUVjauP9diQF8KbXgu8A5R06/lJaMtG5XGBykJ1MnKuC3wYn2fYmByEXHNsN/EwgDNlsEd14zEBndHNdgMDIdM9/nqMeXB6CMaObpeF6HRzVYYIItB9OAjjYDkimwNoPJbAk+guNR4VVF9M6GzGdwSj6YYs5XxJ1QYIMxMfMHbyjxJp1UWaNFxo3BeVMdc84eGygYYc3gtUfbjjnqGXwN0TY8rAmcE3N/qvomc5eettNg9AFl7ZZZPThrfOn0BTFlB+CrNMD5cGG5tBZLC+oInr+8KvbAQb5yqiQvKgY2msHTrMIBK4y1WFoNOVX4SGd9V7vBmBYUBmc1vYaow5hW/ga3JzVHPTLmwcnJC4m9vFoNNhhTcD2rMEDJnWJBquNarMUXwZkS2TWt8WUU2XCiWPHYK3ZNa8p1WGAqsmF7jQk83rGvcoytN922ZWzBvZaKTdBtcK5iEADPqqjrd51ezJj+gOa/FkUW9IF5f9q7pouRhhvB8Eb6KBXQtOkDJ2V4NPzOrmlfO/10EAP6vXQukQFpQKrMNgREY+9PswE61DZ3OEOF9HjbiJRtQXOPXTBcxOCgM8MfaolHOnggflC9M9I6n2wXOI2AB5ytXuZ9ZhvKuRygfyL7SYoDsTPSapNsys29UGW2YQOSKRMH/BJTdZIRYcSMcZB/F0Ya4BFPCnD28nCEvQ474DY6lY3oOYLA8gR5ofDtAbjTwm10ati4yT5mOEecadMOsAq36Js0sAzMoHfEo1O0H2X7gsfO7YRLfov1COa6y9jPpPo/py7Rkka03ycAAAAASUVORK5CYII="></image>
+            <path d="M24,46 C36.1502651,46 46,36.1502651 46,24 C46,11.8497349 36.1502651,2 24,2 C11.8497349,2 2,11.8497349 2,24 C2,36.1502651 11.8497349,46 24,46 Z" id="Combined-Shape" fill="#0FC09D"></path>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="8" cx="24" cy="24" r="8"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="4" cx="24" cy="24" r="17"></circle>
+        </g>
+    </g>
+</svg>

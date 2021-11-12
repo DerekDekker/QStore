@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <filter id="flameshot-a" width="131%" height="129.8%" x="-14.3%" y="-14.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="flameshot-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#863FDA"/>
+      <stop offset="100%" stop-color="#80A"/>
+    </linearGradient>
+    <path id="flameshot-d" d="M48.5772801,13.1721034 C53.5270276,25.9000254 41.8597657,39.6886077 38.6777852,47.8203357 C35.4958047,55.9520636 38.6777852,65.4980052 49.3980663,78.3183478 C46.8095132,68.6799857 52.112814,60.5482577 59.5374352,50.2952094 C66.9620564,40.0421611 56.3554547,23.0715983 48.5772801,13.1721034 Z"/>
+    <filter id="flameshot-c" width="157%" height="121.5%" x="-28.5%" y="-7.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <path id="flameshot-f" d="M39.6714309,11.1721034 C43.2551103,20.5079076 38.2950426,29.9099142 32.259871,36.5111795 C26.2246994,43.1124448 27.1822622,60.9543358 37.1549218,71.5866478 C35.0423747,63.2928463 38.3144656,55.0743658 48.3008034,44.8140999 C58.2871413,34.553834 44.3347736,16.3444563 39.6714309,11.1721034 Z"/>
+    <filter id="flameshot-e" width="138.6%" height="116.6%" x="-19.3%" y="-4.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <path id="flameshot-h" d="M28.950173,17 C29.5936845,27.1185019 24.2350835,37.0221526 20.4174363,41.5975975 C16.5997891,46.1730424 16.4012758,54.7917875 26.5293305,68.5026641 C24.7452144,60.2275057 27.7013612,53.8507165 34.6860229,45.3400381 C41.6706845,36.8293596 32.6561392,22.2589045 28.950173,17 Z"/>
+    <filter id="flameshot-g" width="136.3%" height="113.6%" x="-13%" y="-6.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#flameshot-a)" transform="translate(6 6)">
+    <circle cx="42" cy="42" r="42" fill="url(#flameshot-b)"/>
+    <g transform="rotate(45 49.779 45.745)">
+      <use fill="#000" filter="url(#flameshot-c)" xlink:href="#flameshot-d"/>
+      <use fill="#F06" xlink:href="#flameshot-d"/>
+    </g>
+    <g transform="rotate(21 40.162 41.38)">
+      <use fill="#000" filter="url(#flameshot-e)" xlink:href="#flameshot-f"/>
+      <use fill="#F60" xlink:href="#flameshot-f"/>
+    </g>
+    <use fill="#000" filter="url(#flameshot-g)" xlink:href="#flameshot-h"/>
+    <use fill="#FC0" xlink:href="#flameshot-h"/>
+  </g>
+</svg>
