@@ -9,8 +9,11 @@ from .ui import AppUi
 
 
 class AppWidget(QWidget, AppUi):
-    def __init__(self):
+    def __init__(self, name, describe, img):
         super(AppWidget, self).__init__()
+        self.name = name
+        self.describe = describe
+        self.img = img
 
         self.ui(self)
 

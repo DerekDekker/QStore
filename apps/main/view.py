@@ -23,7 +23,7 @@ class MainWidget(QMainWindow):
         qssStyle = FileQss.readQSS('../../static/qss/main.qss')
         self.setStyleSheet(qssStyle)
         self.setObjectName('MainWidget')
-        self.resize(1100,600)
+        self.resize(1100, 600)
 
         # 毛玻璃
         self.setAttribute(Qt.WA_TranslucentBackground)
@@ -61,14 +61,12 @@ class MainWidget(QMainWindow):
 
         # 信号
         for menu_widget_list_obj in nav_widget.menu_widget_list:
-            # nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(partial(self.menu_slot, menu_widget_list_obj))
-            nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(self.menu_slot(1))
+            nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(partial(self.menu_slot, menu_widget_list_obj))
 
     @Slot()
-    def menu_slot(self, x):
-        print(x)
+    def menu_slot(self, column_id):
         # 主窗体
-        body_widget3 = BodyWidget(3)
+        body_widget3 = BodyWidget(column_id)
         self.stacked_widget.addWidget(body_widget3)  # 堆栈窗口 添加 主窗体
         self.stacked_widget.setCurrentWidget(body_widget3)  # 堆栈窗口 显示 主窗体
 

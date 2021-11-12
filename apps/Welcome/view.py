@@ -16,14 +16,18 @@ class WelcomeWidget(QWidget):
     def __init__(self):
         super(WelcomeWidget, self).__init__()
 
-
         # 布局 垂直
         self.q_layout = QVBoxLayout(self)
+
+        self.svg = QtSvgWidgets.QSvgWidget('../../media/image/anaconda2-install_icon.svg')
+        self.svg.setFixedSize(240, 240)
+
+        self.q_layout.addWidget(self.svg, 0, Qt.AlignCenter | Qt.AlignBottom)
 
         title_label = QLabel('欢迎使用QStore')
         title_label.setStyleSheet('color:#cecece;font-size:48px;font-family: "Liberation Serif";')
 
-        self.q_layout.addWidget(title_label, 0, Qt.AlignCenter)
+        self.q_layout.addWidget(title_label, 0, Qt.AlignCenter | Qt.AlignTop)
 
 
 

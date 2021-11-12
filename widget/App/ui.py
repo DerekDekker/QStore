@@ -17,18 +17,18 @@ class AppUi(object):
         b_layout = QHBoxLayout(AppWidget)
 
         # 应用Logo
-        self.svg = QtSvgWidgets.QSvgWidget('../../media/image/anaconda2-install_icon.svg')
+        self.svg = QtSvgWidgets.QSvgWidget(f'../../media/image/{AppWidget.img}')
         self.svg.setMinimumWidth(120)
         self.svg.setMinimumHeight(120)
         self.svg.setMaximumWidth(120)
         self.svg.setMaximumHeight(120)
 
         # 标题
-        self.title = QLabel('超级浏览器')
+        self.title = QLabel(f'超级浏览器{AppWidget.name}')
         self.title.setStyleSheet('color:#cecece;letter-spacing:2px;font-size:24px;font-family: "Liberation Serif";')
 
         # 内容
-        self.content = QLabel('我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>我超级喜欢这种软件<i>Hello</i>')
+        self.content = QLabel(AppWidget.describe)
         self.content.setStyleSheet('color:#c7c7c7;font-weight: 400;font-family: "Noto Serif CJK JP";')
         self.content.setWordWrap(True)
 

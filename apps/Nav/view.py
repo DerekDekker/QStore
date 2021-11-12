@@ -44,6 +44,7 @@ class NavWidget(QMainWindow):
             self.V_layout.addWidget(self.menu_widget_list[cursor_obj[0]])
 
         self.V_layout.addStretch(1)
+        c.close()
 
         # 菜单
         # self.menu_widget = MenuWidget()
