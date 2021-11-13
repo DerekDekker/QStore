@@ -24,11 +24,11 @@ class AppUi(object):
         self.svg.setMaximumHeight(120)
 
         # 标题
-        self.title = QLabel(f'超级浏览器{AppWidget.name}')
+        self.title = QLabel(f'{AppWidget.name}')
         self.title.setStyleSheet('color:#cecece;letter-spacing:2px;font-size:24px;font-family: "Liberation Serif";')
 
         # 内容
-        self.content = QLabel(AppWidget.describe)
+        self.content = QLabel(AppWidget.describe[:90])
         self.content.setStyleSheet('color:#c7c7c7;font-weight: 400;font-family: "Noto Serif CJK JP";')
         self.content.setWordWrap(True)
 

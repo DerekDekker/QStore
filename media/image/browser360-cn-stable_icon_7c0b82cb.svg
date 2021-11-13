@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <filter id="browser360-cn-a" width="128.6%" height="128.6%" x="-14.3%" y="-14.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="browser360-cn-b" x1="38.592%" x2="62.792%" y1="2.343%" y2="95.745%">
+      <stop offset="0%" stop-color="#01B8AA"/>
+      <stop offset="100%" stop-color="#00CF81"/>
+    </linearGradient>
+    <path id="browser360-cn-c" d="M58.8397632,47 L25.6305306,47 C27.4179858,54.4959766 33.6080702,59.9384414 41.3454935,59.9384414 C45.3175675,59.9384414 49.4421064,59.7526398 52.1541022,57.4293977 C53.0324609,56.715209 53.8720151,55.6241052 54.4808979,54.809977 C54.9173158,54.2500512 55.2085306,54.0041229 55.7657279,54.0041229 C60.2938061,54.0041229 63.7216856,54.0041229 66.0493663,54.0041229 C66.6241357,54.0041229 66.7778359,54.5104651 66.5613111,54.9707036 C62.320986,64.4163061 52.997037,70 41.9879041,70 C26.9439485,70 15,57.7090614 15,42.622978 C15,27.5368946 26.9439485,15 41.9879041,15 C57.0318597,15 69,28.127409 69,43.2134925 C69,44.0184541 68.9659259,44.8154578 68.8991286,45.603061 C68.8572468,46.0968872 68.7996618,47.0171661 67.7621326,47.0171661 C65.7821177,47.0171661 62.8074837,47.0171661 58.8382308,47.0171661 C58.8387424,47.0114376 58.8392531,47.0057156 58.839763,47 Z M58.6772793,39 C56.9339168,31.1443514 50.282256,25.0297699 41.9879041,25.0297699 C33.4954793,25.0297699 26.9226419,30.9862412 25.4283711,39 L58.6772793,39 Z"/>
+    <filter id="browser360-cn-d" width="101.9%" height="103.6%" x="-.9%" y="-.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <linearGradient id="browser360-cn-e" x1="1.208%" x2="94.994%" y1="31.863%" y2="67.226%">
+      <stop offset="0%" stop-color="#F6F6F6"/>
+      <stop offset="14.291%" stop-color="#AEEFAE"/>
+      <stop offset="36.884%" stop-color="#C0F3C0"/>
+      <stop offset="69.338%" stop-color="#F8F8F8"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#browser360-cn-a)" transform="translate(7 8)">
+    <circle cx="42" cy="42" r="42" fill="url(#browser360-cn-b)"/>
+    <mask id="browser360-cn-f" fill="#fff">
+      <use xlink:href="#browser360-cn-c"/>
+    </mask>
+    <use fill="#000" filter="url(#browser360-cn-d)" xlink:href="#browser360-cn-c"/>
+    <use fill="#FFF" xlink:href="#browser360-cn-c"/>
+    <path fill="url(#browser360-cn-e)" d="M47.6602842,67 C61.2260974,67 69.6127644,56.2228154 69.6127644,42.7506028 C69.6127644,29.2783902 58.2836054,19.1445794 46.1468734,19.1445794 C34.0101413,19.1445794 24.6780004,30.1948879 25.3268856,43.5687777 C25.929793,55.9950422 34.094471,67 47.6602842,67 Z" mask="url(#browser360-cn-f)"/>
+  </g>
+</svg>

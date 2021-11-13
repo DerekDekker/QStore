@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>百度网盘</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="百度网盘">
+            <image id="Bitmap" x="3" y="4" width="42" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAABGdBTUEAA1teXP8meAAAAR5JREFUWAntmcsKAjEMRTtWxAcDguA3ufFr3bjzfwRB8IlY9CZO5TLrgBFSuG1ah3Dm4KrTpJQaRIastdYDB9MLDJI07GDy/njb5JxX3d7FUkrZLueTNWCKGBwg48PpcXFB14NYtKMZju4CKbDVbO8xF1thawRUhrf/5ofqMyvb34HyG7isq1GXcAwVoGzDog6jFha5RxhlGxZ1GLWwyD3CKNuwqMOohUXuEUbZhkUdRi0sco8wyjYs6jBqYZF7hFG2YVGHUQuL3COMsg2LOoxaWOQef2dUL/T5DRzVylaNvs7ny84RnKJ0TAr6/diAX1pkimR96vdTAcIVOSF3AZUI3AjRi/3uDMvPhliUPJEHop9v9DIfmwqN0s2owOkNSz0mm8d+FEoAAAAASUVORK5CYII="></image>
+            <rect id="Rectangle" fill="#EDF3FA" x="5" y="5" width="38" height="38" rx="1"></rect>
+            <g id="Group" transform="translate(8.000000, 11.000000)">
+                <path d="M30.1,19 C31.1,19 31.9,18.2 31.9,17.2 C31.9,12.9 28.4,9.4 24.1,9.4 L23.7,9.4 C23.8,8.9 23.8,8.5 23.8,8 C23.8,3.7 20.3,0.2 16,0.2 C11.7,0.2 8.2,3.7 8.2,8 C8.2,8.5 8.3,9 8.3,9.5 C8.1,9.5 7.9,9.4 7.8,9.4 C3.5,9.4 0,12.9 0,17.2 C0,21.5 3.5,25 7.8,25 C10,25 12,24.1 13.4,22.6 C13.4,22.6 20.7,14.5 21,14.2 C21.8,13.4 22.9,12.9 24,12.9 C26.3,12.9 28.3,14.8 28.3,17.2 C28.4,18.2 29.2,19 30.1,19 Z M16,3.7 C18.3,3.7 20.3,5.6 20.3,8 C20.3,10.3 18.4,12.3 16,12.3 C13.6,12.3 11.7,10.4 11.7,8 C11.8,5.7 13.7,3.7 16,3.7 Z M3.6,17.2 C3.6,14.9 5.5,12.9 7.9,12.9 C10.2,12.9 12.2,14.8 12.2,17.2 C12.2,18.4 11.7,19.4 11,20.2 C10.2,21 9.2,21.4 8,21.4 C5.5,21.5 3.6,19.6 3.6,17.2 Z" id="Shape" fill="#3476F9" fill-rule="nonzero"></path>
+                <path d="M7.7,12.9 C10,12.9 12,14.8 12,17.2 C12,18.5 11.733013,19.1633189 11.733013,19.1633189 C12.0440173,18.8177585 15.3,15.2 15.3,15.2 C14.4,11.9 11.4,9.4 7.8,9.4 C6.83741877,9.4 9,9.5 9,11 C9,12.5 7.2066217,12.9 7.7,12.9 Z" id="Shape" fill="#EC3E43" fill-rule="nonzero"></path>
+                <path d="M19.7013265,21.1858626 C20.7912426,22.3049669 22.3144545,23 24,23 C27.3137085,23 30,20.3137085 30,17 C30,13.6862915 27.3137085,11 24,11 C23.1064724,11 22.2585636,11.1953172 21.4966391,11.545586" id="Oval-2" stroke="#3476F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

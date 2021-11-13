@@ -29,7 +29,6 @@ class NavWidget(QMainWindow):
         self.V_layout.setSpacing(0)
         self.setContentsMargins(6, 3, 6, 0)
 
-
         c = sqlite3.connect('../../QStore.db')
         cursor = c.execute('SELECT * FROM column')
 

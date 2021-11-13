@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.1%" y="-6.4%" width="118.2%" height="116.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="88.053779%" id="linearGradient-2">
+            <stop stop-color="#8FE04D" offset="0%"></stop>
+            <stop stop-color="#60B111" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.6791225%" y1="5.16837376%" x2="47.6791225%" y2="87.7936747%" id="linearGradient-3">
+            <stop stop-color="#5AC912" offset="0%"></stop>
+            <stop stop-color="#368903" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.9510959%" y1="100%" x2="78.9973555%" y2="22.7941713%" id="linearGradient-4">
+            <stop stop-color="#479316" offset="0%"></stop>
+            <stop stop-color="#4BBB04" offset="38.1030275%"></stop>
+            <stop stop-color="#86D741" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" stroke-width="2">
+            <circle id="Oval" stroke="#DDDFE1" fill="#FFFFFF" cx="44" cy="44" r="44"></circle>
+            <g id="Group" transform="translate(6.000000, 0.000000)" fill="url(#linearGradient-2)">
+                <path d="M1.75004301,55.4330412 C0.613080703,51.8246862 0,47.9839394 0,44 C0,23.0131795 17.0131795,6 38,6 C42.5457876,6 46.9051462,6.79819771 50.9455654,8.2620828 C46.8422786,10.934847 42.6725762,14.1511986 38.5676909,17.8520926 C31.7228859,21.7272297 26.2058265,25.4223074 23.9188746,27.3961664 C13.7139004,36.1681833 6.13893588,45.9830362 1.75004301,55.4330412 Z M5.41581317,63.5628529 C8.6348602,54.9477001 14.8206591,45.2323937 23.3488169,36 L53.752425,36 C52.9296362,29.4017607 48.0891767,24.0512253 41.7563755,22.4737228 C46.2665256,18.3302162 50.8648885,14.8067305 55.3521657,11.9941974 C55.9678997,11.7143818 56.5797905,11.4471974 57.1873525,11.1928162 C68.4421796,17.7894448 76,30.0121106 76,44 C76,44.6708691 75.9826153,45.3376777 75.9482718,46 L22.5040699,46 C22.175012,47.2784797 22,48.6188017 22,50 C22,58.836556 29.163444,66 38,66 C45.4553577,66 51.7197589,60.9009089 53.4959301,54 L74.6704808,54 C70.2807323,70.1353615 55.5259336,82 38,82 C24.1682456,82 12.0625272,74.609961 5.4158114,63.5628495 Z" id="Combined-Shape" stroke="url(#linearGradient-3)"></path>
+                <path d="M77.9619606,7.52735106 C77.0515035,5.86782564 75.8560312,4.51209994 74.3848864,3.48721046 C63.3013687,-4.23424604 39.3757942,8.61837895 21.2402762,32.5546925 C2.82915253,56.8547665 -2.29213259,80.7564839 8.88118937,89.9424906 C10.846354,91.5581261 13.4525089,92.3199526 16.5960794,92.2685364 C15.2404964,91.872662 13.9927519,91.2841037 12.8667445,90.4996581 C1.41795669,82.5237321 6.77965692,57.3819325 24.3440304,34.1994488 C41.8930998,11.0371642 65.1184182,-1.59337204 76.522282,6.35125709 C77.03415,6.70785572 77.514121,7.10031932 77.9619606,7.52735106 Z" id="Path" stroke="url(#linearGradient-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
