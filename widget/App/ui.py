@@ -1,11 +1,6 @@
-import sys
-from PySide6 import QtWidgets, QtGui, Qt, QtSvgWidgets
-from PySide6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QVBoxLayout
-from PySide6.QtGui import QPixmap, QGuiApplication, QImage
+from PySide6 import Qt, QtSvgWidgets
+from PySide6.QtWidgets import QLabel, QHBoxLayout, QVBoxLayout
 from PySide6.QtCore import Qt
-import random
-from PyQt5.QtGui import QFont
-from utils.FileQss import FileQss
 
 
 class AppUi(object):

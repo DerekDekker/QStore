@@ -1,12 +1,7 @@
 import sys
-from PySide6 import QtWidgets, QtGui, Qt, QtSvgWidgets
-from PySide6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QVBoxLayout
-from PySide6.QtGui import QPixmap, QGuiApplication, QImage
-from PySide6.QtCore import Qt
-import random
-from PyQt5.QtGui import QFont
+from PySide6 import QtWidgets
+from PySide6.QtWidgets import QWidget
 from .ui import AppUi
-from PySide6.QtCore import Signal
 
 
 class AppWidget(QWidget, AppUi):

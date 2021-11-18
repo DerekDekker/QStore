@@ -1,14 +1,8 @@
 import sys
-from PySide6 import QtWidgets, QtGui, Qt, QtSvgWidgets
-from PySide6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QHBoxLayout, QPushButton, QMainWindow
-from PySide6.QtGui import QPixmap, QGuiApplication, QImage
+from PySide6 import QtWidgets, Qt, QtSvgWidgets
+from PySide6.QtWidgets import QLabel, QHBoxLayout, QPushButton
 from PySide6.QtCore import Qt
-import random
-from PyQt5.QtGui import QFont
-from PySide6.QtGui import QIcon
-from PySide6 import QtCore
 from utils.FileQss import FileQss
-from PySide6.QtCore import Slot
 
 
 class MenuWidget(QPushButton):

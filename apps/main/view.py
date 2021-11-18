@@ -14,6 +14,8 @@ from Welcome.view import WelcomeWidget
 from functools import partial
 from PySide6.QtCore import Signal
 from Detail.view import DetailWidget
+from widget.Top.view import TopWidget
+
 
 class MainWidget(QMainWindow):
     def __init__(self):
@@ -63,7 +65,8 @@ class MainWidget(QMainWindow):
         for menu_widget_list_obj in nav_widget.menu_widget_list:
             nav_widget.menu_widget_list[menu_widget_list_obj].clicked.connect(partial(self.menu_slot, menu_widget_list_obj))
 
-
+        # 顶部
+        top_widget = TopWidget()
 
     @Slot()
     def menu_slot(self, column_id):

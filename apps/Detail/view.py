@@ -1,15 +1,7 @@
 import sys
 from PySide6 import QtWidgets, QtGui, Qt, QtSvgWidgets
-from PySide6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QVBoxLayout, QMainWindow, QGridLayout, QScrollArea, QGraphicsBlurEffect, QSplitter
-from PySide6.QtGui import QPixmap, QGuiApplication, QImage
+from PySide6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QVBoxLayout
 from PySide6.QtCore import Qt
-import random
-from PySide6.QtGui import QIcon
-from PySide6 import QtCore
-from widget.Menu.view import MenuWidget
-from utils.CommonHelper import CommonHelper
-from utils.FileQss import FileQss
-from widget.App.view import AppWidget
 
 
 class DetailWidget(QWidget):
@@ -35,14 +27,10 @@ class DetailWidget(QWidget):
         self.q_layout.addWidget(website, 1, Qt.AlignCenter | Qt.AlignTop)
 
         # 介绍
-        describe = QLabel(app_obj.describe)
-        describe.setWordWrap(True)
-        describe.setStyleSheet('color:#969696;font-size:18px;font-family: "Liberation Serif";padding: 0px;margin: 0px;')
-        self.q_layout.addWidget(describe, 3,  Qt.AlignCenter | Qt.AlignTop)
-
-
-
-
+        self.describe = QLabel(app_obj.describe)
+        self.describe.setWordWrap(True)
+        self.describe.setStyleSheet('color:#969696;font-size:18px;font-family: "Liberation Serif";margin:10px')
+        self.q_layout.addWidget(self.describe, 3, Qt.AlignTop)
 
 
 if __name__ == '__main__':
